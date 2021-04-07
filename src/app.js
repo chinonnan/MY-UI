@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import Button from './button'
+import Icon from './icon'
 
 Vue.component('my-button',Button)
+Vue.component('my-icon',Icon)
 new Vue({
     el: "#app",
   });
