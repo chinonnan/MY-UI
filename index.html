@@ -30,11 +30,20 @@
         font-size: var(--font-size);
       }
     </style>
+    <style>
+      .icon{
+        width: 1em;
+        height: 1em;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
-      <my-button></my-button>
+      <my-button>按鈕</my-button>
+      <my-button icon="settings">按鈕</my-button>
+      <my-button icon="settings" icon-position="right">按鈕</my-button>
     </div>
     <script src="./src/app.js"></script>
+    <script src="//at.alicdn.com/t/font_2469959_a9omoutddes.js"></script>
   </body>
 </html>
