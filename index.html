@@ -36,6 +36,11 @@
       <my-button :loading="loading1" @click="loading1 = !loading1">按鈕</my-button>
       <my-button icon="settings" :loading="loading2" @click="loading2 = !loading2">按鈕</my-button>
       <my-button icon="settings" icon-position="right" :loading="loading3" @click="loading3 = !loading3">按鈕</my-button>
+      <my-button-group>
+        <my-button icon="left">上一页</my-button>
+        <my-button>更多</my-button>
+        <my-button icon="right" icon-position="right">下一页</my-button>
+      </my-button-group>
     </div>
     <script src="./src/app.js"></script>
     <script src="//at.alicdn.com/t/font_2469959_5twpoir3kx.js"></script>
